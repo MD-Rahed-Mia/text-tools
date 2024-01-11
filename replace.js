@@ -8,7 +8,7 @@ let replaceTextValue = document.querySelector("#replaceText");
 let activeStatus = false;
 function checkThis() {
   document.querySelector(".toggle").classList.toggle("active");
-  activeStatus = true;
+  activeStatus = !activeStatus;
 }
 
 const replaceText = () => {
