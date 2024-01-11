@@ -40,3 +40,7 @@ input {
   left: 35px;
   background: green;
 }
+
+div, a {
+  margin: 10px;
+}
